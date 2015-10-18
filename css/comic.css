@@ -1,0 +1,62 @@
+<style>
+body {
+
+
+
+}
+.step {
+    position: relative;
+    padding: 40px;
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:    border-box;
+    -ms-box-sizing:     border-box;
+    -o-box-sizing:      border-box;
+    box-sizing:         border-box;
+    font-family: 'PT Serif', georgia, serif;
+    font-size: 48px;
+    line-height: 1.5;
+}
+.slide {
+  display: block;
+  width: 1200px;
+  height: 700px;
+  padding: 120px 60px;
+
+  background: -webkit-linear-gradient(90deg, #C04848 10%, #480048 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #C04848 10%, #480048 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #C04848 10%, #480048 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #C04848 10%, #480048 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #C04848 10%, #480048 90%); /* W3C */
+        
+  border: 1px solid rgba(0, 0, 0, .3);
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+  color: rgb(102, 102, 102);
+  text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+  font-family: 'Open Sans', Arial, sans-serif;
+
+}
+
+.slide img{
+<<<<<<< HEAD
+  transform:scale(1.3);
+    -ms-transform:scale(1.3); /* IE 9 */
+    -moz-transform:scale(1.3); /* Firefox */
+    -webkit-transform:scale(1.3); /* Safari and Chrome */
+    -o-transform:scale(1.3); /* Opera */
+=======
+  
+>>>>>>> 156a9034b34f0b6486ded33717b076c7ff5385d6
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  
+
+}
+.credits, .credits h2 {
+  padding-top: 0;
+}
+</style>

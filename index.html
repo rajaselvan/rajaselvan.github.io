@@ -1,0 +1,177 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=1024" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <title>Rajaselvan</title>
+
+  <meta name="description" content="portfolio of github user @rajaselvan" />
+  <meta name="author" content="rajaselvan" />
+
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+
+ 
+  
+
+  
+  <link href="css/raja.css" rel="stylesheet" />
+
+
+  <link rel="shortcut icon" href="favicon.png" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+
+
+
+<body>
+
+
+
+
+ 
+
+
+
+  <div id="impress">
+
+
+    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
+      <span class="try">Howdy!</span>
+      <h1>I am Rajaselvan</h1>
+      <span class="footnote"><sup>*</sup> aka  Anto, Jene, Raj.</span>
+    </div>
+
+
+    <div id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
+      <p>I am a
+        <strong>computer science student</strong> with a passion for web development. I love to learn new skills and keep ahead of the curve</p>
+    </div>
+
+    <div id="big" class="step" data-x="2000" data-y="2100" data-rotate="180" data-scale="1">
+      <p>I &lt;write/&gt;  <strong>Javascript</strong>
+      </p>
+    </div>
+
+
+
+
+
+
+
+    <div id="ing" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
+      <p>and.. <b class="positioning">Perl</b></p> <p> <b class="rotating">Python</b>
+       , <b class="scaling">Ruby</b> </p>
+
+    </div>
+
+    <div id="imagination" class="step" data-x="6700" data-y="-300" data-scale="6">
+      <p><b>I</b> build <b class="imagination">web apps</b>
+      </p>
+    </div>
+
+    <div id="imagination" class="step" data-x="4000" data-y="0" data-scale="6">
+      <p><b class="imagination">mobile apps</b>
+      </p>
+    </div>
+
+    <div id="imagination" class="step" data-x="5400" data-y="-900" data-scale="6">
+      <p><b class="imagination">hybrid apps</b>
+      </p>
+    </div>
+
+
+
+    <div id="jquery" class="step" data-x="6300" data-y="2000" data-scale="3">
+      <p><b>I</b> <span style="color:#FF0000">&hearts; </span></p>
+      <q><img src="jquery.png"/></q>
+
+    </div>
+
+
+
+    <div id="angular" class="step" data-x="8200" data-y="2000" data-scale="3">
+
+      <q><img src="angular.png"/></q>
+
+    </div>
+
+    <div id="node" class="step" data-x="8800" data-y="2000" data-scale="2">
+
+      <q><img src="node.gif"/></q>
+
+    </div>
+
+
+    <div id="meteor" class="step" data-x="9000" data-y="1000" data-scale="2">
+
+      <q><img src="meteor.gif"/></q>
+
+    </div>
+
+    <div id="fedora" class="step" data-x="8300" data-y="1000" data-scale="2">
+
+      <q><img src="fedora.svg"/></q>
+
+    </div>
+
+    <div id="pubnub" class="step" data-x="7300" data-y="1000" data-scale="2">
+
+      <q><img src="pubnub.png"/></q>
+
+    </div>
+
+    <div id="parse" class="step" data-x="6300" data-y="1000" data-scale="2">
+
+      <q><img src="parse.png"/></q>
+
+    </div>
+
+    <div id="rails" class="step" data-x="5300" data-y="1000" data-scale="2">
+
+      <q><img src="rails.png"/></q>
+
+    </div>
+
+
+
+
+
+
+
+    <div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
+      <p>and one more...</p>
+    </div>
+
+
+    <div id="zooey" class="step" data-x="6200" data-y="6300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="6">
+      <p>
+        <img src="zd.gif"> </p>
+    </div>
+
+
+
+
+<script src="js/raja.js"></script>
+
+  <script>
+
+  var impress = impress();
+  impress.init();
+
+  document.addEventListener('impress:stepenter', function(e){
+    if (typeof timing !== 'undefined') clearInterval(timing);
+    var duration = (e.target.getAttribute('data-transition-duration') ? e.target.getAttribute('data-transition-duration') : 3000); 
+    timing = setInterval(impress.next, duration);
+  });
+
+  </script>
+
+
+
+</body>
+
+</html>
